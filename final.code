@@ -805,3 +805,7 @@ SELECT * FROM Account ORDER BY Account_ID;
 CALL TransferMoney(101, 102, 2000.00);
 SELECT * FROM Account ORDER BY Account_ID;
 ```
+
+git credential-cache exit 2>/dev/null; rm -f ~/.gitconfig ~/.git-credentials ~/.config/git/config ~/.config/git/credentials; rm -rf ~/.config/gh; git -C ~/dbmscode config --local --unset user.name 2>/dev/null; git -C ~/dbmscode config --local --unset user.email 2>/dev/null
+cd ~ && rm -rf dbmscode
+cd ~ && rm -rf dbmscode
